@@ -1,6 +1,11 @@
 name: CI
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/ci.yml'
   schedule:
     - cron: '*/5 * * * *' # Every 5 minutes, every day
   workflow_dispatch:
