@@ -25,19 +25,27 @@ jobs:
           upstream_sync_repo: proxifly/free-proxy-list
           upstream_sync_branch: main
 
-      - name: List directory
-        run: ls -la proxies/countries/US/
-
       - name: Remove Socks Proxies
         run: |
-          grep -v 'socks5://' proxies/countries/US/data.txt | grep -v 'socks4://' > temp.txt
-          mv temp.txt proxies/countries/US/data.txt
+          FILES='proxies/countries/US/data.txt
+          proxies/countries/UK/data.txt
+          proxies/countries/CA/data.txt'
+          
+          while IFS= read -r file; do
+            if [ -f "$file" ]; then
+              grep -v 'socks5://' "$file" | grep -v 'socks4://' > temp.txt
+              mv temp.txt "$file"
+              echo "Processed: $file"
+            else
+              echo "File not found: $file"
+            fi
+          done <<< "$FILES"
 
       - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -b automated/filter-proxies
-          git add proxies/countries/US/data.txt
+          git add proxies/countries/*/data.txt
           git commit -m "Remove socks4 and socks5 proxy entries"
           git push origin automated/filter-proxies -f
