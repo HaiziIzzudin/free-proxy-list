@@ -28,7 +28,7 @@ jobs:
       - name: Remove Socks Proxies
         run: |
           FILES='proxies/countries/US/data.txt
-          proxies/countries/UK/data.txt
+          proxies/countries/GB/data.txt
           proxies/countries/CA/data.txt'
           
           while IFS= read -r file; do
