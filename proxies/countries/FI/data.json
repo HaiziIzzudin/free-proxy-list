@@ -1,9 +1,9 @@
 [
   {
-    "proxy": "socks5://206.123.156.199:4691",
+    "proxy": "socks5://206.123.156.222:5900",
     "protocol": "socks5",
-    "ip": "206.123.156.199",
-    "port": 4691,
+    "ip": "206.123.156.222",
+    "port": 5900,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -13,36 +13,23 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.178:4903",
+    "proxy": "socks5://206.123.156.222:5601",
+    "protocol": "socks5",
+    "ip": "206.123.156.222",
+    "port": 5601,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.178:8915",
     "protocol": "socks5",
     "ip": "206.123.156.178",
-    "port": 4903,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "FI",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://206.123.156.176:5047",
-    "protocol": "socks5",
-    "ip": "206.123.156.176",
-    "port": 5047,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "FI",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks4://213.165.58.8:1080",
-    "protocol": "socks4",
-    "ip": "213.165.58.8",
-    "port": 1080,
+    "port": 8915,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -88,6 +75,32 @@
     "geolocation": {
       "country": "FI",
       "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://35.180.127.14:840",
+    "protocol": "http",
+    "ip": "35.180.127.14",
+    "port": 840,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://65.108.103.19:80",
+    "protocol": "http",
+    "ip": "65.108.103.19",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Helsinki"
     }
   },
   {
