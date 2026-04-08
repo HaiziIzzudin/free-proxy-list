@@ -7,7 +7,7 @@ on:
     paths:
       - '.github/workflows/ci.yml'
   schedule:
-    - cron: '*/5 * * * *' # Every 5 minutes, every day
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -25,16 +25,19 @@ jobs:
           upstream_sync_repo: proxifly/free-proxy-list
           upstream_sync_branch: main
 
+      - name: List directory
+        run: ls -la proxies/countries/US/
+
       - name: Remove Socks Proxies
         run: |
-          grep -v 'socks5://' free-proxy-list/proxies/countries/US/data.txt | grep -v 'socks4://' > temp.txt
-          mv temp.txt free-proxy-list/proxies/countries/US/data.txt
+          grep -v 'socks5://' proxies/countries/US/data.txt | grep -v 'socks4://' > temp.txt
+          mv temp.txt proxies/countries/US/data.txt
 
       - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -b automated/filter-proxies
-          git add free-proxy-list/proxies/countries/US/data.txt
+          git add proxies/countries/US/data.txt
           git commit -m "Remove socks4 and socks5 proxy entries"
           git push origin automated/filter-proxies -f
