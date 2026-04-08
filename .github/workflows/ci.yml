@@ -29,7 +29,13 @@ jobs:
         run: |
           FILES='proxies/countries/US/data.txt
           proxies/countries/GB/data.txt
-          proxies/countries/CA/data.txt'
+          proxies/countries/CA/data.txt
+          proxies/countries/LU/data.txt
+          proxies/countries/IE/data.txt
+          proxies/countries/DK/data.txt
+          proxies/countries/NL/data.txt
+          proxies/countries/SE/data.txt
+          '
           
           while IFS= read -r file; do
             if [ -f "$file" ]; then
