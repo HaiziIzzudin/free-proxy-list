@@ -13,10 +13,10 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.179:5722",
+    "proxy": "socks5://206.123.156.190:6257",
     "protocol": "socks5",
-    "ip": "206.123.156.179",
-    "port": 5722,
+    "ip": "206.123.156.190",
+    "port": 6257,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,10 +26,10 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.176:4755",
+    "proxy": "socks5://206.123.156.190:6562",
     "protocol": "socks5",
-    "ip": "206.123.156.176",
-    "port": 4755,
+    "ip": "206.123.156.190",
+    "port": 6562,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -39,10 +39,10 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.223:4753",
+    "proxy": "socks5://206.123.156.228:6994",
     "protocol": "socks5",
-    "ip": "206.123.156.223",
-    "port": 4753,
+    "ip": "206.123.156.228",
+    "port": 6994,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -81,6 +81,19 @@
     "proxy": "http://4.195.16.140:80",
     "protocol": "http",
     "ip": "4.195.16.140",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AU",
+      "city": "Sydney"
+    }
+  },
+  {
+    "proxy": "http://139.99.237.62:80",
+    "protocol": "http",
+    "ip": "139.99.237.62",
     "port": 80,
     "https": false,
     "anonymity": "transparent",
