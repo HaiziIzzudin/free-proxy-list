@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "socks5://206.123.156.187:4898",
+    "proxy": "socks5://206.123.156.228:5390",
+    "protocol": "socks5",
+    "ip": "206.123.156.228",
+    "port": 5390,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "MY",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.187:4779",
     "protocol": "socks5",
     "ip": "206.123.156.187",
-    "port": 4898,
+    "port": 4779,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -75,6 +88,19 @@
     "geolocation": {
       "country": "MY",
       "city": "Kuala Lumpur"
+    }
+  },
+  {
+    "proxy": "http://219.93.101.63:80",
+    "protocol": "http",
+    "ip": "219.93.101.63",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "MY",
+      "city": "Shah Alam"
     }
   }
 ]
