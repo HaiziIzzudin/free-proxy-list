@@ -13,10 +13,10 @@
     }
   },
   {
-    "proxy": "socks5://91.186.218.219:1080",
-    "protocol": "socks5",
-    "ip": "91.186.218.219",
-    "port": 1080,
+    "proxy": "socks4://188.150.229.60:5678",
+    "protocol": "socks4",
+    "ip": "188.150.229.60",
+    "port": 5678,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,10 +26,10 @@
     }
   },
   {
-    "proxy": "http://63.181.83.210:3129",
+    "proxy": "http://13.244.203.188:37828",
     "protocol": "http",
-    "ip": "63.181.83.210",
-    "port": 3129,
+    "ip": "13.244.203.188",
+    "port": 37828,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
@@ -43,6 +43,71 @@
     "protocol": "http",
     "ip": "77.221.136.60",
     "port": 8443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "SE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://13.244.203.188:46231",
+    "protocol": "http",
+    "ip": "13.244.203.188",
+    "port": 46231,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "SE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://34.246.183.20:42457",
+    "protocol": "http",
+    "ip": "34.246.183.20",
+    "port": 42457,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "SE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://43.198.209.12:15021",
+    "protocol": "http",
+    "ip": "43.198.209.12",
+    "port": 15021,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "SE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://43.198.209.12:2055",
+    "protocol": "http",
+    "ip": "43.198.209.12",
+    "port": 2055,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "SE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://34.241.123.181:443",
+    "protocol": "http",
+    "ip": "34.241.123.181",
+    "port": 443,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
