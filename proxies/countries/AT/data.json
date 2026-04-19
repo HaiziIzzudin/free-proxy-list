@@ -13,10 +13,23 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.190:5592",
+    "proxy": "socks5://206.123.156.228:6432",
     "protocol": "socks5",
-    "ip": "206.123.156.190",
-    "port": 5592,
+    "ip": "206.123.156.228",
+    "port": 6432,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AT",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://178.115.238.226:5678",
+    "protocol": "socks4",
+    "ip": "178.115.238.226",
+    "port": 5678,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
