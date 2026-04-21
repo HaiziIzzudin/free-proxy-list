@@ -26,11 +26,24 @@
     }
   },
   {
-    "proxy": "http://154.202.119.234:3128",
+    "proxy": "http://56.125.195.110:13477",
     "protocol": "http",
-    "ip": "154.202.119.234",
-    "port": 3128,
-    "https": false,
+    "ip": "56.125.195.110",
+    "port": 13477,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "SC",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://54.188.236.206:57401",
+    "protocol": "http",
+    "ip": "54.188.236.206",
+    "port": 57401,
+    "https": true,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
