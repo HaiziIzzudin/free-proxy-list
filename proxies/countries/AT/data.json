@@ -13,10 +13,23 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.223:21443",
+    "proxy": "socks5://206.123.156.227:10486",
     "protocol": "socks5",
-    "ip": "206.123.156.223",
-    "port": 21443,
+    "ip": "206.123.156.227",
+    "port": 10486,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AT",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.224:6903",
+    "protocol": "socks5",
+    "ip": "206.123.156.224",
+    "port": 6903,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -94,19 +107,6 @@
     "proxy": "http://62.99.138.162:80",
     "protocol": "http",
     "ip": "62.99.138.162",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "AT",
-      "city": "Vienna"
-    }
-  },
-  {
-    "proxy": "http://213.33.126.130:80",
-    "protocol": "http",
-    "ip": "213.33.126.130",
     "port": 80,
     "https": false,
     "anonymity": "transparent",
