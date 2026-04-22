@@ -65,19 +65,6 @@
     }
   },
   {
-    "proxy": "http://47.243.181.85:41408",
-    "protocol": "http",
-    "ip": "47.243.181.85",
-    "port": 41408,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "JP",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://133.242.152.27:443",
     "protocol": "http",
     "ip": "133.242.152.27",
@@ -169,10 +156,10 @@
     }
   },
   {
-    "proxy": "http://47.243.181.85:41404",
+    "proxy": "http://52.196.49.70:443",
     "protocol": "http",
-    "ip": "47.243.181.85",
-    "port": 41404,
+    "ip": "52.196.49.70",
+    "port": 443,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
@@ -182,9 +169,9 @@
     }
   },
   {
-    "proxy": "http://52.196.49.70:443",
+    "proxy": "http://133.9.6.10:443",
     "protocol": "http",
-    "ip": "52.196.49.70",
+    "ip": "133.9.6.10",
     "port": 443,
     "https": true,
     "anonymity": "transparent",
@@ -247,9 +234,9 @@
     }
   },
   {
-    "proxy": "http://116.80.82.92:7777",
+    "proxy": "http://116.80.64.158:7777",
     "protocol": "http",
-    "ip": "116.80.82.92",
+    "ip": "116.80.64.158",
     "port": 7777,
     "https": false,
     "anonymity": "transparent",
@@ -273,9 +260,9 @@
     }
   },
   {
-    "proxy": "http://116.80.48.38:7777",
+    "proxy": "http://116.80.63.64:7777",
     "protocol": "http",
-    "ip": "116.80.48.38",
+    "ip": "116.80.63.64",
     "port": 7777,
     "https": false,
     "anonymity": "transparent",
@@ -286,9 +273,22 @@
     }
   },
   {
-    "proxy": "http://116.80.59.73:3128",
+    "proxy": "http://116.80.47.79:3128",
     "protocol": "http",
-    "ip": "116.80.59.73",
+    "ip": "116.80.47.79",
+    "port": 3128,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "JP",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://116.80.83.90:3128",
+    "protocol": "http",
+    "ip": "116.80.83.90",
     "port": 3128,
     "https": false,
     "anonymity": "transparent",

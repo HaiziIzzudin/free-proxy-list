@@ -13,10 +13,10 @@
     }
   },
   {
-    "proxy": "socks5://139.59.246.166:6868",
+    "proxy": "socks5://206.123.156.225:4048",
     "protocol": "socks5",
-    "ip": "139.59.246.166",
-    "port": 6868,
+    "ip": "206.123.156.225",
+    "port": 4048,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,10 +26,10 @@
     }
   },
   {
-    "proxy": "socks5://47.79.248.253:8888",
+    "proxy": "socks5://139.59.246.166:6868",
     "protocol": "socks5",
-    "ip": "47.79.248.253",
-    "port": 8888,
+    "ip": "139.59.246.166",
+    "port": 6868,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -65,49 +65,10 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.226:5520",
+    "proxy": "socks5://206.123.156.226:4450",
     "protocol": "socks5",
     "ip": "206.123.156.226",
-    "port": 5520,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "SG",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://206.123.156.222:25150",
-    "protocol": "socks5",
-    "ip": "206.123.156.222",
-    "port": 25150,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "SG",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://206.123.156.196:7127",
-    "protocol": "socks5",
-    "ip": "206.123.156.196",
-    "port": 7127,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "SG",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://206.123.156.195:8518",
-    "protocol": "socks5",
-    "ip": "206.123.156.195",
-    "port": 8518,
+    "port": 4450,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -278,19 +239,6 @@
     "ip": "143.198.192.178",
     "port": 443,
     "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "SG",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://15.235.131.237:8080",
-    "protocol": "http",
-    "ip": "15.235.131.237",
-    "port": 8080,
-    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
