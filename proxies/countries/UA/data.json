@@ -1,9 +1,9 @@
 [
   {
-    "proxy": "socks5://206.123.156.179:4715",
+    "proxy": "socks5://206.123.156.204:8774",
     "protocol": "socks5",
-    "ip": "206.123.156.179",
-    "port": 4715,
+    "ip": "206.123.156.204",
+    "port": 8774,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -13,10 +13,10 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.176:5789",
+    "proxy": "socks5://206.123.156.233:5115",
     "protocol": "socks5",
-    "ip": "206.123.156.176",
-    "port": 5789,
+    "ip": "206.123.156.233",
+    "port": 5115,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,10 +26,62 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.224:9645",
+    "proxy": "socks5://206.123.156.218:8230",
     "protocol": "socks5",
-    "ip": "206.123.156.224",
-    "port": 9645,
+    "ip": "206.123.156.218",
+    "port": 8230,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "UA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.213:5712",
+    "protocol": "socks5",
+    "ip": "206.123.156.213",
+    "port": 5712,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "UA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.231:4279",
+    "protocol": "socks5",
+    "ip": "206.123.156.231",
+    "port": 4279,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "UA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.185:10774",
+    "protocol": "socks5",
+    "ip": "206.123.156.185",
+    "port": 10774,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "UA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://109.86.228.165:5678",
+    "protocol": "socks4",
+    "ip": "109.86.228.165",
+    "port": 5678,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
