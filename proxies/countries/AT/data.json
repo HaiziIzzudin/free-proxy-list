@@ -1,9 +1,9 @@
 [
   {
-    "proxy": "socks5://206.123.156.217:4073",
+    "proxy": "socks5://206.123.156.196:4076",
     "protocol": "socks5",
-    "ip": "206.123.156.217",
-    "port": 4073,
+    "ip": "206.123.156.196",
+    "port": 4076,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,9 +26,22 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.222:4071",
+    "proxy": "socks5://206.123.156.227:5680",
     "protocol": "socks5",
-    "ip": "206.123.156.222",
+    "ip": "206.123.156.227",
+    "port": 5680,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AT",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.233:4071",
+    "protocol": "socks5",
+    "ip": "206.123.156.233",
     "port": 4071,
     "https": false,
     "anonymity": "transparent",
@@ -39,10 +52,10 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.188:6894",
+    "proxy": "socks5://206.123.156.197:20308",
     "protocol": "socks5",
-    "ip": "206.123.156.188",
-    "port": 6894,
+    "ip": "206.123.156.197",
+    "port": 20308,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -52,10 +65,36 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.226:5815",
+    "proxy": "socks5://206.123.156.197:7868",
     "protocol": "socks5",
-    "ip": "206.123.156.226",
-    "port": 5815,
+    "ip": "206.123.156.197",
+    "port": 7868,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AT",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.177:7881",
+    "protocol": "socks5",
+    "ip": "206.123.156.177",
+    "port": 7881,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AT",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://135.181.248.47:9060",
+    "protocol": "socks4",
+    "ip": "135.181.248.47",
+    "port": 9060,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
