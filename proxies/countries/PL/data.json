@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "socks5://84.201.144.65:10008",
+    "protocol": "socks5",
+    "ip": "84.201.144.65",
+    "port": 10008,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PL",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "http://151.115.78.51:443",
     "protocol": "http",
     "ip": "151.115.78.51",
