@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "socks5://206.123.156.213:4347",
+    "protocol": "socks5",
+    "ip": "206.123.156.213",
+    "port": 4347,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "http://47.243.181.85:55008",
     "protocol": "http",
     "ip": "47.243.181.85",
@@ -13,49 +26,10 @@
     }
   },
   {
-    "proxy": "http://47.243.181.85:41287",
-    "protocol": "http",
-    "ip": "47.243.181.85",
-    "port": 41287,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://118.163.99.115:443",
     "protocol": "http",
     "ip": "118.163.99.115",
     "port": 443,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://47.243.181.85:41298",
-    "protocol": "http",
-    "ip": "47.243.181.85",
-    "port": 41298,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://47.243.181.85:55017",
-    "protocol": "http",
-    "ip": "47.243.181.85",
-    "port": 55017,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
@@ -160,32 +134,6 @@
     "protocol": "http",
     "ip": "47.243.181.85",
     "port": 8081,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://47.243.181.85:41315",
-    "protocol": "http",
-    "ip": "47.243.181.85",
-    "port": 41315,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://47.243.181.85:55006",
-    "protocol": "http",
-    "ip": "47.243.181.85",
-    "port": 55006,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
