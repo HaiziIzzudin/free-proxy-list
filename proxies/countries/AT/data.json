@@ -1,61 +1,35 @@
 [
   {
-    "proxy": "socks5://206.123.156.211:7048",
+    "proxy": "socks5://206.123.156.215:6168",
+    "protocol": "socks5",
+    "ip": "206.123.156.215",
+    "port": 6168,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AT",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.231:4538",
+    "protocol": "socks5",
+    "ip": "206.123.156.231",
+    "port": 4538,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AT",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.211:12552",
     "protocol": "socks5",
     "ip": "206.123.156.211",
-    "port": 7048,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "AT",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://206.123.156.236:43074",
-    "protocol": "socks5",
-    "ip": "206.123.156.236",
-    "port": 43074,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "AT",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://206.123.156.188:46048",
-    "protocol": "socks5",
-    "ip": "206.123.156.188",
-    "port": 46048,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "AT",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://206.123.156.215:35758",
-    "protocol": "socks5",
-    "ip": "206.123.156.215",
-    "port": 35758,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "AT",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://206.123.156.215:33377",
-    "protocol": "socks5",
-    "ip": "206.123.156.215",
-    "port": 33377,
+    "port": 12552,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -117,10 +91,10 @@
     }
   },
   {
-    "proxy": "http://52.47.115.41:8000",
+    "proxy": "http://43.217.141.124:49757",
     "protocol": "http",
-    "ip": "52.47.115.41",
-    "port": 8000,
+    "ip": "43.217.141.124",
+    "port": 49757,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
