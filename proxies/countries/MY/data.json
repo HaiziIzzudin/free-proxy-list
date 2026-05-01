@@ -1,9 +1,9 @@
 [
   {
-    "proxy": "socks5://206.123.156.236:32990",
+    "proxy": "socks5://206.123.156.227:35533",
     "protocol": "socks5",
-    "ip": "206.123.156.236",
-    "port": 32990,
+    "ip": "206.123.156.227",
+    "port": 35533,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -13,10 +13,10 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.215:6211",
+    "proxy": "socks5://206.123.156.215:37224",
     "protocol": "socks5",
     "ip": "206.123.156.215",
-    "port": 6211,
+    "port": 37224,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,10 +26,23 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.231:4792",
+    "proxy": "socks5://206.123.156.211:13226",
     "protocol": "socks5",
-    "ip": "206.123.156.231",
-    "port": 4792,
+    "ip": "206.123.156.211",
+    "port": 13226,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "MY",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.201:13608",
+    "protocol": "socks5",
+    "ip": "206.123.156.201",
+    "port": 13608,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -42,6 +55,19 @@
     "proxy": "http://210.48.154.99:443",
     "protocol": "http",
     "ip": "210.48.154.99",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "MY",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://210.19.96.163:443",
+    "protocol": "http",
+    "ip": "210.19.96.163",
     "port": 443,
     "https": true,
     "anonymity": "transparent",
@@ -101,19 +127,6 @@
     "geolocation": {
       "country": "MY",
       "city": "Kuala Lumpur"
-    }
-  },
-  {
-    "proxy": "http://219.93.101.63:80",
-    "protocol": "http",
-    "ip": "219.93.101.63",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "MY",
-      "city": "Shah Alam"
     }
   }
 ]

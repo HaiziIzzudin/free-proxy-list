@@ -1,9 +1,9 @@
 [
   {
-    "proxy": "socks5://206.123.156.201:8237",
+    "proxy": "socks5://206.123.156.201:9068",
     "protocol": "socks5",
     "ip": "206.123.156.201",
-    "port": 8237,
+    "port": 9068,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -13,10 +13,10 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.215:31947",
+    "proxy": "socks5://206.123.156.236:39532",
     "protocol": "socks5",
-    "ip": "206.123.156.215",
-    "port": 31947,
+    "ip": "206.123.156.236",
+    "port": 39532,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,10 +26,10 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.227:27897",
+    "proxy": "socks5://206.123.156.227:31517",
     "protocol": "socks5",
     "ip": "206.123.156.227",
-    "port": 27897,
+    "port": 31517,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -39,10 +39,36 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.188:39287",
+    "proxy": "socks5://206.123.156.211:10762",
     "protocol": "socks5",
-    "ip": "206.123.156.188",
-    "port": 39287,
+    "ip": "206.123.156.211",
+    "port": 10762,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.231:21608",
+    "protocol": "socks5",
+    "ip": "206.123.156.231",
+    "port": 21608,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.236:41509",
+    "protocol": "socks5",
+    "ip": "206.123.156.236",
+    "port": 41509,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -127,6 +153,19 @@
     "geolocation": {
       "country": "FI",
       "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://65.108.103.19:80",
+    "protocol": "http",
+    "ip": "65.108.103.19",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Helsinki"
     }
   },
   {
