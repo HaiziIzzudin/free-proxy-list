@@ -1,9 +1,74 @@
 [
   {
+    "proxy": "socks5://206.123.156.254:10743",
+    "protocol": "socks5",
+    "ip": "206.123.156.254",
+    "port": 10743,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.227:6166",
+    "protocol": "socks5",
+    "ip": "206.123.156.227",
+    "port": 6166,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "socks5://193.221.203.192:1080",
     "protocol": "socks5",
     "ip": "193.221.203.192",
     "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.215:20446",
+    "protocol": "socks5",
+    "ip": "206.123.156.215",
+    "port": 20446,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.227:6932",
+    "protocol": "socks5",
+    "ip": "206.123.156.227",
+    "port": 6932,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.236:32546",
+    "protocol": "socks5",
+    "ip": "206.123.156.236",
+    "port": 32546,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -83,6 +148,19 @@
     "ip": "135.181.1.73",
     "port": 443,
     "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://89.35.119.147:3128",
+    "protocol": "http",
+    "ip": "89.35.119.147",
+    "port": 3128,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
