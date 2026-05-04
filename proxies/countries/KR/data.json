@@ -13,10 +13,23 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.231:6065",
+    "proxy": "socks5://206.123.156.231:12241",
     "protocol": "socks5",
     "ip": "206.123.156.231",
-    "port": 6065,
+    "port": 12241,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KR",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.201:14522",
+    "protocol": "socks5",
+    "ip": "206.123.156.201",
+    "port": 14522,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
