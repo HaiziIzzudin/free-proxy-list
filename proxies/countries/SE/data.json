@@ -26,10 +26,23 @@
     }
   },
   {
-    "proxy": "socks4://188.150.229.60:5678",
+    "proxy": "socks4://81.228.44.187:65530",
     "protocol": "socks4",
-    "ip": "188.150.229.60",
-    "port": 5678,
+    "ip": "81.228.44.187",
+    "port": 65530,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "SE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://140.82.37.232:9065",
+    "protocol": "socks4",
+    "ip": "140.82.37.232",
+    "port": 9065,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
