@@ -1,9 +1,9 @@
 [
   {
-    "proxy": "socks5://149.62.186.244:1080",
+    "proxy": "socks5://206.123.156.192:4312",
     "protocol": "socks5",
-    "ip": "149.62.186.244",
-    "port": 1080,
+    "ip": "206.123.156.192",
+    "port": 4312,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -13,10 +13,10 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.227:4794",
+    "proxy": "socks5://206.123.156.192:8100",
     "protocol": "socks5",
-    "ip": "206.123.156.227",
-    "port": 4794,
+    "ip": "206.123.156.192",
+    "port": 8100,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,23 +26,36 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.204:4519",
-    "protocol": "socks5",
-    "ip": "206.123.156.204",
-    "port": 4519,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "IT",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://206.123.156.201:6063",
+    "proxy": "socks5://206.123.156.201:9140",
     "protocol": "socks5",
     "ip": "206.123.156.201",
-    "port": 6063,
+    "port": 9140,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IT",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.197:28520",
+    "protocol": "socks5",
+    "ip": "206.123.156.197",
+    "port": 28520,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IT",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://91.192.25.158:4145",
+    "protocol": "socks4",
+    "ip": "91.192.25.158",
+    "port": 4145,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -225,19 +238,6 @@
     "protocol": "http",
     "ip": "109.116.41.154",
     "port": 443,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "IT",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://195.231.48.238:8443",
-    "protocol": "http",
-    "ip": "195.231.48.238",
-    "port": 8443,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
