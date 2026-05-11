@@ -1,9 +1,74 @@
 [
   {
-    "proxy": "socks5://206.123.156.219:7581",
+    "proxy": "socks5://170.64.170.204:1080",
     "protocol": "socks5",
-    "ip": "206.123.156.219",
-    "port": 7581,
+    "ip": "170.64.170.204",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AU",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.227:6810",
+    "protocol": "socks5",
+    "ip": "206.123.156.227",
+    "port": 6810,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AU",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.211:42569",
+    "protocol": "socks5",
+    "ip": "206.123.156.211",
+    "port": 42569,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AU",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.224:34570",
+    "protocol": "socks5",
+    "ip": "206.123.156.224",
+    "port": 34570,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AU",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.182:10055",
+    "protocol": "socks5",
+    "ip": "206.123.156.182",
+    "port": 10055,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AU",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.233:6660",
+    "protocol": "socks5",
+    "ip": "206.123.156.233",
+    "port": 6660,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -68,6 +133,19 @@
     "proxy": "http://4.195.16.140:80",
     "protocol": "http",
     "ip": "4.195.16.140",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AU",
+      "city": "Sydney"
+    }
+  },
+  {
+    "proxy": "http://139.99.237.62:80",
+    "protocol": "http",
+    "ip": "139.99.237.62",
     "port": 80,
     "https": false,
     "anonymity": "transparent",
