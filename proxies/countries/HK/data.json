@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "socks5://45.146.243.133:1080",
+    "proxy": "socks5://52.8.53.117:6000",
     "protocol": "socks5",
-    "ip": "45.146.243.133",
-    "port": 1080,
+    "ip": "52.8.53.117",
+    "port": 6000,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "HK",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://47.83.168.191:4000",
+    "protocol": "socks5",
+    "ip": "47.83.168.191",
+    "port": 4000,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -109,71 +122,6 @@
     "ip": "47.243.181.85",
     "port": 28085,
     "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "HK",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://45.88.0.111:3128",
-    "protocol": "http",
-    "ip": "45.88.0.111",
-    "port": 3128,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "HK",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://45.88.0.113:3128",
-    "protocol": "http",
-    "ip": "45.88.0.113",
-    "port": 3128,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "HK",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://45.88.0.99:3128",
-    "protocol": "http",
-    "ip": "45.88.0.99",
-    "port": 3128,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "HK",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://45.88.0.98:3128",
-    "protocol": "http",
-    "ip": "45.88.0.98",
-    "port": 3128,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "HK",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://45.88.0.117:3128",
-    "protocol": "http",
-    "ip": "45.88.0.117",
-    "port": 3128,
-    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
