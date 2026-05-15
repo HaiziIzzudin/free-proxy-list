@@ -1,9 +1,9 @@
 [
   {
-    "proxy": "socks5://206.123.156.204:7659",
+    "proxy": "socks5://206.123.156.194:6506",
     "protocol": "socks5",
-    "ip": "206.123.156.204",
-    "port": 7659,
+    "ip": "206.123.156.194",
+    "port": 6506,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -13,10 +13,10 @@
     }
   },
   {
-    "proxy": "socks5://43.246.201.253:1080",
+    "proxy": "socks5://206.123.156.235:7832",
     "protocol": "socks5",
-    "ip": "43.246.201.253",
-    "port": 1080,
+    "ip": "206.123.156.235",
+    "port": 7832,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,49 +26,10 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.204:23407",
+    "proxy": "socks5://206.123.156.194:4159",
     "protocol": "socks5",
-    "ip": "206.123.156.204",
-    "port": 23407,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "BD",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://206.123.156.236:6251",
-    "protocol": "socks5",
-    "ip": "206.123.156.236",
-    "port": 6251,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "BD",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks4://114.134.88.74:9696",
-    "protocol": "socks4",
-    "ip": "114.134.88.74",
-    "port": 9696,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "BD",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks4://202.40.186.70:1080",
-    "protocol": "socks4",
-    "ip": "202.40.186.70",
-    "port": 1080,
+    "ip": "206.123.156.194",
+    "port": 4159,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -83,19 +44,6 @@
     "ip": "35.247.136.78",
     "port": 443,
     "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "BD",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://103.106.119.217:8081",
-    "protocol": "http",
-    "ip": "103.106.119.217",
-    "port": 8081,
-    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
