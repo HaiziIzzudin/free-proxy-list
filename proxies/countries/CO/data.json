@@ -13,9 +13,22 @@
     }
   },
   {
-    "proxy": "http://209.14.118.116:999",
+    "proxy": "http://179.1.113.113:999",
     "protocol": "http",
-    "ip": "209.14.118.116",
+    "ip": "179.1.113.113",
+    "port": 999,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CO",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://181.119.67.156:999",
+    "protocol": "http",
+    "ip": "181.119.67.156",
     "port": 999,
     "https": false,
     "anonymity": "transparent",
