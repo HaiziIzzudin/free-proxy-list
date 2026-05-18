@@ -1,9 +1,9 @@
 [
   {
-    "proxy": "socks5://206.123.156.228:6870",
+    "proxy": "socks5://206.123.156.189:4794",
     "protocol": "socks5",
-    "ip": "206.123.156.228",
-    "port": 6870,
+    "ip": "206.123.156.189",
+    "port": 4794,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -13,10 +13,23 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.187:8727",
+    "proxy": "socks5://206.123.156.231:7779",
+    "protocol": "socks5",
+    "ip": "206.123.156.231",
+    "port": 7779,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.187:4788",
     "protocol": "socks5",
     "ip": "206.123.156.187",
-    "port": 8727,
+    "port": 4788,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,10 +39,10 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.188:6144",
+    "proxy": "socks5://206.123.156.224:9269",
     "protocol": "socks5",
-    "ip": "206.123.156.188",
-    "port": 6144,
+    "ip": "206.123.156.224",
+    "port": 9269,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -39,16 +52,16 @@
     }
   },
   {
-    "proxy": "socks4://192.111.129.150:4145",
-    "protocol": "socks4",
-    "ip": "192.111.129.150",
-    "port": 4145,
-    "https": false,
+    "proxy": "http://149.57.28.9:9443",
+    "protocol": "http",
+    "ip": "149.57.28.9",
+    "port": 9443,
+    "https": true,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CA",
-      "city": "North York"
+      "city": "Unknown"
     }
   },
   {
@@ -192,6 +205,19 @@
     "geolocation": {
       "country": "CA",
       "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://192.111.129.150:4145",
+    "protocol": "socks4",
+    "ip": "192.111.129.150",
+    "port": 4145,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "North York"
     }
   },
   {
